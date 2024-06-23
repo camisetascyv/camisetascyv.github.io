@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #121212;
     color: #ffffff;
+    padding-bottom: 60px; /* Añadir relleno inferior para evitar superposición con el pie de página fijo */
 }
 
 header {
@@ -37,7 +38,6 @@ nav a:hover {
 
 main {
     padding: 20px;
-    padding-bottom: 60px; /* Añadir relleno inferior para evitar superposición con el pie de página */
 }
 
 .camisetas {
@@ -73,8 +73,8 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    margin-top: 50px; /* Añadir espacio superior */
-    position: relative;
+    position: fixed; /* Establecer el pie de página en la parte inferior de la página */
+    bottom: 0;
     width: 100%;
 }
 
