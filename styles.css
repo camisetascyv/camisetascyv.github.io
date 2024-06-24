@@ -51,6 +51,11 @@ main {
     text-align: center;
 }
 
+.encargo {
+    margin: 30px;
+    text-align: center;
+}
+
 .camiseta img {
     width: 150px;
     height: 150px;
